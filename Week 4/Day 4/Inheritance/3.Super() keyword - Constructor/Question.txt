@@ -1,0 +1,66 @@
+Like explained earlier, we use Inheritance to group classes under some common Class for code reusability. In our application, many exhibitions and Stage show may happen. Since they have common attributes like name, type, organiser, those attributes are declared in Event class and both the Exhibition and Stage event inherit them. You'll understand the difference between 'super' and 'this' keywords in this problem. Let's implement them.
+
+Create an Event class with protected attributes
+
+Attributes	Datatype
+name	String
+detail	String
+type	String
+organiserName	String
+Create an Exhibition class with following private attributes
+
+Attributes	Datatype
+noOfStalls	Integer
+Create a StageEvent class with following private attributes
+
+Attributes	Datatype
+noOfSeats	Integer
+Now include appropriate getters and setters for all the classes.
+Include a default constructor and parameterized constructor for all the classes.
+
+The format for Parameterized constructors:
+
+public Event(String name, String detail, String type, String organiserName)
+public Exhibition(String name, String detail, String type, StringorganiserName, Integer noOfStalls)
+public StageEvent(String name, String detail, String type, StringorganiserName, Integer noOfSeats)
+
+Create a driver class called Main. In the Main method, obtain input from the user and create StageEvent or Exhibition objects accordingly. At last print the details of the object appropriately (Refer Sample I/O).
+Note: If choice other than specified is chosen, print "Invalid choice" and terminate.
+[Strictly adhere to the Object-Oriented Specifications given in the problem statement.
+All class names, attribute names and method names should be the same as specified in the problem statement.]
+
+[All text in bold corresponds to the input and rest corresponds to output]
+Sample Input/Output 1:
+
+Choose Event type
+1.Exhibition
+2.StageEvent
+1
+Enter the details in CSV format
+Book expo,special sale,Academics,Mahesh,10
+Event Name:Book expo
+Detail:special sale
+Type:Academics
+Organiser Name:Mahesh
+Number of stalls:10
+
+Sample Input/Output 2:
+
+Choose Event type
+1.Exhibition
+2.StageEvent
+2
+Enter the details in CSV format
+JJ magic show,New Year Special,Comedy magic,J Jegadeesh,100
+Event Name:JJ magic show
+Detail:New Year Special
+Type:Comedy magic
+Organiser Name:J Jegadeesh
+Number of seats:100
+
+Sample Input/Output 3:
+Choose Event type
+1.Exhibition
+2.StageEvent
+3
+Invalid choice
