@@ -1,0 +1,70 @@
+Constructors are member functions that are called when an object is created.
+
+Write a program to get the customer details, assign the values to the object using constructors and display it.
+
+[Note: Strictly adhere to the object-oriented specifications given as a part of the problem statement.
+Follow the naming conventions as mentioned. Create separate classes in separate files.]
+
+Consider a class named Customer with the following public member variables
+
+Data Type	Variable Name
+String	customerName
+String	customerEmail
+String	customerType
+String	customerAddress
+Include default and parameterized  for the above class
+Prototype for the parameterized constructor,
+Customer(String customerName, String customerEmail, String customerType, String customerAddress)
+
+Include the following method in the Customer class
+
+Method Name	Description
+void displayDetails()	To display the details of the customer in the given format.
+
+Consider the Main class to include the main() method.
+
+In the Main method
+
+Obtain the details of the customer.
+Create an object for Customer class using parameterized constructor(customerName, customerEmail, customerType, customerAddress)
+Call the method displayDetails() in the Main class.
+
+The link to download the template code is given below
+Code Template
+
+
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and the rest corresponds to the output]
+
+Sample Input and Output 1:
+
+Enter the Customer Details
+Enter the name
+Rose
+Enter the email
+rose@mail.com
+Enter the type
+Domestic
+Enter the location
+India
+Name: Rose
+E-mail: rose@mail.com
+Type: Domestic
+Location: India
+
+Sample Input and Output 2:
+
+Enter the Customer Details
+Enter the name
+Kate
+Enter the email
+kate@a.com
+Enter the type
+Domestic
+Enter the location
+Australia
+Name: Kate
+E-mail: kate@a.com
+Type: Domestic
+Location: Australia
