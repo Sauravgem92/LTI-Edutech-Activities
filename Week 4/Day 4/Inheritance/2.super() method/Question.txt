@@ -1,0 +1,64 @@
+So far you have learned about the basics of inheritance and created 2 child classes for a parent class and displayed the details. Now let's go for simple manipulation along with superclass. This will be needed in our application as some class share common attributes so they can be grouped as child classes of some superclass.
+
+To try this let's create a parent class Event with following attributes,
+Attributes	Datatype
+name	String
+detail	String
+type	String
+ownerName	String
+costPerDay	Double
+
+Then create child class Exhibition that extends Event with the following attribute,
+Attributes	Datatype
+noOfStall	Integer
+
+And create another child class StageEvent that extends Event with the following attribute,
+Attributes	Datatype
+noOfSeats	Integer
+
+Add suitable constructor (with super() if necessary) and getters/setters for the classes.
+
+Get the starting and ending date of the event from the user and calculate the total cost for the event. Then calculate GST for the event according to the event type.
+
+GST is 5% for Exhibition and 15% for StageEvent.
+
+Input format:
+The first line of input is an integer which corresponds to the choice of event.
+The second line of input is the details of the event in the CSV format
+(name, detail, type, owner name,costPerDay,noOfStall)  for the Exhibition.  
+(name, detail, type, owner name,costPerDay,noOfSeats)  for the stage event.
+The next line is the starting date of the event.
+The last line of the input is the ending date of the event.
+
+Output format:
+The output is the GST to be paid for the event.
+Refer to sample input/output for other further details and format of the output.
+
+[All Texts in bold corresponds to the input and rest are output]
+Sample Input/Output 1:
+
+Enter your choice:
+1.Exhibition event
+2.Stage event
+1
+Enter the details of exhibition:
+Science Fair,Exciting experiments,Fair,John,10000.00,10
+Enter the starting date of the event:
+03-01-2018
+Enter the ending date of the event:
+06-01-2018
+The GST to be paid is Rs.1500.0
+
+Sample Input/Output 2:
+
+Enter your choice:
+1.Exhibition event
+2.Stage event
+2
+Enter the details of stage event:
+Movie Award Function,Awards for all category,Award function,Joe,100000,10000
+Enter the starting date of the event:
+07-01-2018
+Enter the ending date of the event:
+09-01-2018
+The GST to be paid is Rs.30000.0
