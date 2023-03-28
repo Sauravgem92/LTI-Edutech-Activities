@@ -1,0 +1,33 @@
+Let's try the aggregation we learned in this module in a practice exercise.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a class Department with the following private attributes,
+Attribute	Datatype
+departmentName	String
+staff	Staff
+
+Create a class Staff with the following private attributes,
+Attribute 	Datatype
+staffName	String
+designation	String
+
+Include the following method in the Department class,
+Method 	Description
+public displayStaff()	This method displays "staffName is working in the departmentName department as designation".
+
+Create a driver class Main, in the main method get the inputs from user, create the objects and call the methods.
+
+Input and Output format:
+Refer to sample Input and Output for formatting specifications.
+
+Sample Input and Output:
+[All text in bold corresponds to the input and rest corresponds to the output]
+
+Enter the name of the staff:
+Jane
+Enter the staff designation:
+Associate Professor
+Enter the department name:
+Physics
+Jane is working in the Physics department as Associate Professor
