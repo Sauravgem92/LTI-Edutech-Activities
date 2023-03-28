@@ -1,0 +1,92 @@
+ Overriding is a runtime polymorphism. The inherited class has the overridden method which has the same name as the method in the parent class. The argument number, types, or return types should not differ in any case. The method is invoked with the object of the specific class ( but with the reference of the parent class).
+
+Write a program to calculate projected revenue for exhibition and stage event using inheritance and method overriding
+
+[Note :
+Strictly adhere to the object-oriented specifications given as a part of the problem statement.
+Use the same class names and member variable names. ]
+
+Consider a parent class Event and define the following protected attributes,
+
+Attributes	Datatype
+name	String
+detail	String
+ownerName	String
+
+Include appropriate getters and setters.
+Prototype for the parameterized constructors to the Event class in the following order Event(String name, String detail, String ownerName)
+
+
+Declare the abstract method public abstract Double projectedRevenue() in the Event class
+
+Consider a child class Exhibition that extends Event  that defines with the following attribute,
+
+Attributes	Datatype
+noOfStalls	Integer
+Include appropriate getters and setters.
+Prototype for the parameterized constructors to the Exhibition class in the following order Exhibition(String name, String detail, String ownerName, Integer noOfStalls). Use super( ) to call and assign values in the base class constructor.
+
+Implement the abstract method projectedRevenue() in Exhibition class
+
+MethodName	Description
+public Double projectedRevenue()	Calculate revenue and return the double value. Each stall will produce Rs.10000 as revenue
+ 
+
+Consider another child class StageEvent that extends Event that defines with the following attribute,
+
+Attributes	Datatype
+noOfShows	Integer
+noOfSeatsPerShow	Integer
+Include appropriate getters and setters.
+Prototype for the parameterized constructors to the StageEvent class in the following order StageEvent(String name, String detail, String ownerName, Integer noOfShows, Integer noOfSeatsPerShow). Use super( ) to call and assign values in the base class constructor.
+
+Implement the abstract method projectedRevenue() in StageEvent class
+
+MethodName	Description
+public Double projectedRevenue()	Calculate revenue and return the double value. Each seat produces Rs.50 revenue.
+
+Consider the class Main. It includes the method main. In the main( ) method  the event details are read from the user and the methods of the above classes are called
+
+The link to download the template code is given below
+Code Template
+   
+Input and Output Format:
+
+Refer to sample input/output for other further details and format of the output.
+The double values should be formatted to 1 decimal place.
+
+[All Texts in bold corresponds to the input and rest are output]
+
+Sample Input/Output 1:
+
+Enter the name of the event:
+Science Fair
+Enter the detail of the event:
+Explore Technology
+Enter the owner name of the event:
+ABCD
+Enter the type of the event:
+1.Exhibition
+2.StageEvent
+1
+Enter the number of stalls:
+65
+The projected revenue of the event is 650000.0
+
+Sample Input/Output 2:
+
+Enter the name of the event:
+Magic Show
+Enter the detail of the event:
+See Magic without Logic
+Enter the owner name of the event:
+SDFG
+Enter the type of the event:
+1.Exhibition
+2.StageEvent
+2
+Enter the number of shows:
+10
+Enter the number of seats per show:
+100
+The projected revenue of the event is 50000.0
