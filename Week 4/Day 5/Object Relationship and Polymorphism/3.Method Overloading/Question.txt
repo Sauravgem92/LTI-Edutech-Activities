@@ -1,0 +1,99 @@
+Write a program to make payment in a different way using the Method Overloading
+
+[Strictly adhere to the Object-Oriented specifications given in the problem statement.
+All class names, attribute names, and method names should be the same as specified in the problem statement.]
+
+
+Consider a class named TicketBooking and the following private attributes.
+
+Attributes	Datatype
+stageEvent	String
+customer	String
+noOfSeats	Integer
+Include getters and setters for the class.
+Include default and parameterized constructors.
+Format for a parameterized constructor is TicketBooking(String stageEvent, String customer, Integer noOfSeats)
+
+The TicketBooking class has the following methods.
+
+Method Name	Description
+public void makepayment(Double amount)	This method is for cash payment.
+This method accepts amount as input and
+displays the transaction detail
+public void makePayment(String walletNumber , Double amount)	This method is for wallet payment.
+This method accepts the amount and wallet number as input and
+displays the transaction detail.
+public void makePayment(String creditCard,String ccv,String name,Double amount)	This method is for credit card payment.
+This method accepts credit card detail,
+ccv, card holder name, and amount as input and
+displays the transaction detail 
+ 
+
+ 
+Consider a driver class called Main. In the Main method, obtain input from the user in CSV format and call appropriate methods for transactions. If a choice other than specified is chosen, print "Invalid choice".
+
+Note:
+
+Display one digit after the decimal point for double values.
+Format for TicketBooking Input is stageEvent,customer,noOfSeats
+The link to download the template code is given below
+Code Template
+[All text in bold corresponds to the input and rest corresponds to the output]
+
+Sample Input/Output 1:
+
+Enter the Booking details
+Magic show, David,5
+Payment mode
+1.Cash payment
+2.Wallet payment
+3.Credit card payment
+1
+Enter the amount
+500
+Stage event: Magic show
+Customer: David
+Number of seats:5
+Amount 500.0 paid in cash
+
+Sample Input/Output 2:
+
+Enter the Booking details
+Motivational speech, John,10
+Payment mode
+1.Cash payment
+2.Wallet payment
+3.Credit card payment
+2
+Enter the amount
+400
+Enter the wallet number
+AFG-456
+Stage event: Motivational speech
+Customer: John
+Number of seats:10
+Amount 400.0 paid using wallet number AFG-456
+
+Sample Input/Output 3:
+
+Enter the Booking details
+Debate,Edwin,2
+Payment mode
+1.Cash payment
+2.Wallet payment
+3.Credit card payment
+3
+Enter cardholder name
+Edwin
+Enter the amount
+200
+Enter the credit card type
+Master
+Enter the CCV number
+9874-4758-9856
+Stage event: Debate
+Customer: Edwin
+Number of seats:2
+Holder name: Edwin
+Amount 200.0 paid using Master card
+CCV:9874-4758-9856
