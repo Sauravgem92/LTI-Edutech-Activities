@@ -1,0 +1,112 @@
+Write a program to calculate the area of the circle and rectangle using the overriding concept in java.
+
+Create a class Shape with the following protected attributes,
+
+Attributes	Datatype
+area	Double
+
+
+Create the following method in the Shape class,
+
+Method Name	Description
+public void computeArea()	In this method assign area to 0.
+
+
+Create a class Circle which extends Shape with the following private attributes,
+
+Attributes	Datatype
+radius	Double
+
+Override the following method in the Circle class,
+
+Method Name	Description
+public void computeArea()	 Here Calculate the area of the circle and assign the value to the area attribute.
+Area of the circle = (22/7) * (radius * radius)
+
+
+Create a class Rectangle which extends Shape with the following private attributes,
+
+Attributes	Datatype
+length	Double
+breadth	Double
+
+Override the following method in the Rectangle class,
+
+Method Name	Description
+public void computeArea()	Here Calculate the area of the rectangle and assign the value to the area attribute.
+Area of the rectangle = (length * breadth)
+
+
+Create a class Triangle which extends Shape with the following private attributes,
+
+Attributes	Datatype
+base	Double
+height	Double
+
+
+Override the following method in the Triangle class,
+
+Method Name	Description
+public void computeArea()	Here Calculate the area of the triangle and assign the value to the area attribute.
+Area of the triangle = (1/2) * (base * height)
+
+Get the option for the shape to compute the area and get the attribute according to the shape option. Calculate the area and print the area.
+While printing round off the area to 2 decimal formats.
+
+Create a driver class Main to test the above classes.
+
+[Note: Strictly adhere to the object-oriented specifications given as a part of the problem statement. Use the same class names, attribute names and method names]
+
+Input Format
+The first line of the input is an integer corresponds to the shape.
+The next line of inputs are Double which corresponds to,
+For Circle(Option 1) get the radius.
+For Rectangle(Option 2) get the length and breadth.
+For Triangle(Option 3) get the base and height.
+
+Output Format
+The output consists area of the shape.
+Print the double value correct to two decimal places.
+Print “Invalid choice”, if the option for the shape is chosen other than the given options.
+Refer to sample output for formatting specifications.
+
+[All text in bold corresponds to input and rest corresponds to output]
+Sample Input/Output 1:
+Enter the shape
+1.Circle
+2.Rectangle
+3.Triangle
+1
+Enter the radius:
+11
+Area of circle is 380.29
+
+Sample Input/Output 2:
+Enter the shape
+1.Circle
+2.Rectangle
+3.Triangle
+2
+Enter the length and breadth:
+10
+25
+Area of rectangle is 250.00
+
+Sample Input/Output 3:
+Enter the shape
+1.Circle
+2.Rectangle
+3.Triangle
+3
+Enter the base and height:
+15
+19
+Area of triangle is 142.50
+
+Sample Input/Output 4:
+Enter the shape
+1.Circle
+2.Rectangle
+3.Triangle
+4
+Invalid choice
