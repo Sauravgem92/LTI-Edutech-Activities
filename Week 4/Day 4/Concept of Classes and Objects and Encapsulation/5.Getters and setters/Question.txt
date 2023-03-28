@@ -1,0 +1,31 @@
+Create a class named Player with the following private attributes.
+String name
+Integer age
+String country
+Include appropriate getters and setters.
+Getters naming convention : getName() ...
+Setters naming convention : setName() ...
+Example :public void setName(String name){
+ this.name = name;
+}
+public String getName(){
+ return this.name;
+}
+Create another class called Main to test the above class. In the main method, create an object of Player class and display its details.
+
+Input and Output Format:
+
+Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output.
+
+Sample Input and Output :
+Enter Name:
+Amar
+Enter Age:
+16
+Enter Country:
+India
+Player Details:
+Name:Amar
+Age:16
+Country:India
