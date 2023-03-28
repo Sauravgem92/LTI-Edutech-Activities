@@ -1,0 +1,40 @@
+You would have learned about Association in this module. Let's practice it with the following exercise.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a Class named Student with the following private attributes
+Attribute	Datatype
+name	String
+registerNo	Integer
+
+Create a Class named Course with the following private attributes
+Attribute	Datatype
+id	Integer
+name	String
+ 
+Generate getters and setters for both the classes.
+Create a default and parameterized constructors for both the classes in the given order
+Student (String name, Integer registerNo);
+Course (Integer id,String name);
+
+The Student class contains the following methods
+Method 	Description
+void display(Course obj)	This method accepts Course object and prints the following statement,
+"StudentName is learning the CourseName course"
+
+Create a driver class called Main. In the Main method, obtain input from the user, create the objects and call the display method of the student class.
+ 
+Input and Output format:
+Refer to sample Input and Output for formatting specifications.
+Sample Input and Output:
+[All text in bold corresponds to the input and rest corresponds to the output]
+
+Enter the student name:
+John
+Enter the register number:
+963
+Enter the course id:
+3
+Enter the course name:
+Java
+John is learning the Java course
