@@ -1,14 +1,13 @@
-package com.lti;
-
 public class Address {
-	private String street, city, country;
-	private int pincode;
+	public String street, city, country;
+	public int pincode;
 
-	public Address() {
+
+    public Address() {
 		super();
 	}
 
-	public Address(String street, String city, int pincode, String country) {
+	public Address(String street, String city, int pincode,String country) {
 		super();
 		this.street = street;
 		this.city = city;
@@ -49,7 +48,7 @@ public class Address {
 	}
 
 	void displayAddress() {
-		System.out.println("Street: " + street + "\nCity: " + city + "\nPincode: " + pincode + "\nCountry: " + country);
+		System.out.println("Street: " + street + "\nCity: " + city + "\nPincode: " + pincode + "\nCountry: " + country );
 	}
 
 }
