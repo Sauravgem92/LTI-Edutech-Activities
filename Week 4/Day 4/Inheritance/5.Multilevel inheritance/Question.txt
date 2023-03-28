@@ -1,0 +1,102 @@
+Now we have gotten acquainted ourselves with multilevel inheritance, we can move on implementing in it our application. Let's consider the domain 'Stall' and its types. There exists a multilevel inheritance.
+
+Create a class SilverStall with following protected attributes
+
+ 
+
+Attributes	Datatype
+name	String
+detail	String
+owner	String
+cost	Integer
+Create default constructor and a parameterized constructor with arguments in order SilverStall(String name, String detail, String owner, Integer cost).
+Include appropriate getters and setters.
+Total cost computes only the stall cost.
+
+Create a class GoldStall which extends SilverStall with following private attributes
+
+ 
+
+ 
+
+Attributes	Datatype
+tvSet	Integer
+Create default constructor and a parameterized constructor with arguments in order GoldStall(String name, String detail, String owner, Integer cost, Integer tvSet).
+Include appropriate getters and setters.
+Total cost computed by stall cost and TV set cost. Each TV set costs 100Rs.
+
+Create a class PlatinumStall which extends GoldStall (i.e Multilevel Inheritance) with following private attributes
+
+ 
+
+ 
+
+Attributes	Datatype
+projector	Integer
+Create default constructor and a parameterized constructor with arguments in order PlatinumStall(String name, String detail, String owner, Integer cost, Integer tvSet, Integer projector).
+Include appropriate getters and setters.
+Total cost computed by stall cost,TV set cost and projector cost where each TV set and projector costs 100Rs and 500Rs respectively.
+
+Create a driver class named Main to test the above class.
+
+Note:
+  Strictly adhere to the Object-Oriented Specifications given in the problem statement.All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Input Format:
+The first input corresponds to choose from the menu which contains silver stall,gold stall and platinum stall.
+The next line of input corresponds to the details of the stalls in CSV format.
+
+Output Format
+The output consists of stall details.
+Refer sample output for formatting specifications.
+
+Sample Input/Output-1:
+Choose Stall Type
+1.Silver Stall
+2.Gold Stall
+3.Platinum Stall
+1
+Enter Stall details in comma separated(Stall Name,Stall Description,Owner Name,Stall Cost)
+Fruits,Fruits are good for health,Kishore,2000
+Stall Name:Fruits
+Details:Fruits are good for health
+Owner Name:Kishore
+Total Cost:2000
+
+Sample Input/Output-2:
+Choose Stall Type
+1.Silver Stall
+2.Gold Stall
+3.Platinum Stall
+2
+Enter Stall details in comma separated(Stall Name,Stall Description,Owner Name,Stall Cost,Number of TV set)
+Junk Foods,Tastier world,JM,5000,7
+Stall Name:Junk Foods
+Details:Tastier world
+Owner Name:JM
+TV Sets:7
+Total Cost:5700
+
+Sample Input/Output-3:
+Choose Stall Type
+1.Silver Stall
+2.Gold Stall
+3.Platinum Stall
+3
+Enter Stall details in comma separated(Stall Name,Stall Description,Owner Name,Stall Cost,Number of TV set,Number of Projectors)
+Vehicular,Engines are the best,Raizak,6000,5,3
+Stall Name:Vehicular
+Details:Engines are the best
+Owner Name:Raizak
+TV Sets:5
+Projectors:3
+Total Cost:8000
+
+Sample Input/Output-4:
+Choose Stall Type
+1.Silver Stall
+2.Gold Stall
+3.Platinum Stall
+4
+
+ 
