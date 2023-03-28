@@ -1,0 +1,51 @@
+You have been selected as a trainee in one of the well-known software majors. To evaluate and expose you to real world projects, the company has given you a requirement document of Phone Usage Tracking &  Bill Generation application. and a series of problems to program the application in a step-by-step manner. Go ahead and solve the problems and learn Java along the way !!! 
+
+The first step is to create a class. A Class is a container to hold data members & member functions, representing a template of real-world entity. Refering the class diagram in the attached document, Lets create a customer class.
+Create a class named Customer with the following private member variables
+
+Data Type
+
+Variable Name
+
+String
+
+customerName
+
+String
+
+customerEmail
+
+String
+
+customerType
+
+String
+
+customerLocation
+
+Include appropriate constructor with order name,email,type,location
+Create a Main class to include the Main method.
+
+In the Main method
+
+Obtain the details of the customer.
+Create an object for Customer class and assign all the attribute values and display the details.
+Note :
+1.Strictly adhere to the object oriented specifications given as mentioned in the problem statement.
+2.All text in bold corresponds to input and the rest corresponds to output
+
+Sample Input and Output:
+Enter the Customer Details
+Enter the name
+Yogi
+Enter the email
+yogi@mail.com
+Enter the type
+Domestic
+Enter the location
+India
+Customer Details
+Name: Yogi
+E-mail: yogi@mail.com
+Type: Domestic
+Location: India
