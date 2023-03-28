@@ -1,0 +1,44 @@
+So far we have studied about inheritance of a class by another. Now take it to the next level by having multilevel inheritance. This is inheriting a class which has already inherited another. So before going to our application taking this fresh concept, let's try it out in a simple example first. We can create 3 classes where one is the parent, next is the child and the third is the child of the child class. Take an example of account handling application, where you get details from the user in comma separated format and save them as objects and then display them.
+
+Create a class Account with the following protected attributes,
+Attributes	Datatype
+accountNumber	String
+balance	Double
+accountHolderName	String
+
+Create a class SavingAccount which extends Account with the following protected attributes,
+Attributes	Datatype
+minimunBalance	Double
+
+Create a class FixedAccount which extends SavingAccount with the following private attributes,
+Attributes	Datatype
+lockingPeriod	Integer
+
+Create a class AccountBO with the following methods,
+Method Name	Description
+public FixedAccount getAccountDetail(String detail)	This method takes the account detail String as the value, then split the string and get all the details, create an object for FixedAccount and return the FixedAccount object.
+
+Get the FixedAccount detail from the user as a comma seperated value, the account detail should be given in the below format,
+accountNumber,balance,accountHolderName,minimunBalance,lockingPeriod
+Split the details and create an object for FixedAccount and Display the details in the below format,
+System.out.format("%-20s %-10s %-20s %-20s %s\n","Account Number","Balance","Account holder name","Minimum balance","Locking period")
+
+Create a driver class Main to test the above classes.
+
+[Note: Strictly adhere to the object oriented specifications given as a part of the problem statement.Use the same class names, attribute names and method names]
+
+Input Format
+The first line of the input is an Integer corresponds to the fixed account detail.
+The account detail should be given in the below format,
+accountNumber,balance,accountHolderName,minimunBalance,lockingPeriod
+Output Format
+The output consists of fixed account detail.
+Refer sample output for formatting specifications.
+
+[All text in bold corresponds to input and rest corresponds to output]
+Sample Input/Output:
+Enter account Detail:
+ACC001,5456.45,Tony Blake,500,10
+Account Details:
+Account Number	Balance	Account holder name	Minimum balance	Locking period
+ACC001	5456.45	Tony Blake	500.0	10
