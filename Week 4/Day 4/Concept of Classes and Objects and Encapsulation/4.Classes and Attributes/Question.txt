@@ -1,0 +1,64 @@
+Write a program to read the country details, assign the values to the object, and display it.
+
+ 
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+
+Consider a class named Country and the following public attributes
+
+Attribute	Datatype
+name	String 
+countryCode	String 
+isdCode	String
+Include default and parameterized constructors for the above class.
+Prototype for the Parameterized Constructor,Country(String name, String countryCode, String isdCode)
+
+Define the following method in the Country class
+
+Method Name	Description
+void display()	To display the details of the country in the given format.
+
+Consider the Main class with main() method.
+
+In the main method
+
+Obtain the details of the country.
+Create an object for Country class using parameterized constructor(name, countryCode, isdCode)
+Call the method display() in the Main class
+The link to download the template code is given below
+Code Template
+
+Input and Output format :
+
+Refer to sample Input and Output for formatting specifications.
+In the below output, Country details should be printed in the display() method.
+
+
+Sample Input and Output 1:
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the country name
+India
+Enter the country code
+IND
+Enter the isd code
+91
+Country Name : India
+Country Code : IND
+ISD Code : 91
+
+Sample Input and Output 2:
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the country name
+Albania
+Enter the country code
+AL
+Enter the isd code
++355
+Country Name : Albania
+Country Code : AL
+ISD Code : +355
+
+ 
