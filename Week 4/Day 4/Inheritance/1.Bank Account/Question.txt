@@ -1,0 +1,89 @@
+Inheritance in Java is same as that of inheritance in real Life. A class which inherits another class obtains all the latter's attributes and methods. The former is called Child class whilst the latter is called Parent class. This phenomenon would be very promising in applications dealing with multiple classes that are constituted by similar or more likely same attributes. You 'll get to know the importance of inheritance from the following problem. All type of accounts in a bank have common attributes which can be inherited from an Account class.
+
+Create a class Account with the following protected attributes
+
+Attributes	Datatype
+accName	String
+accNo	String
+bankName	String
+Include appropriate getters and setters.
+
+
+Include the following protected methods.
+
+Method	Description
+void display()	This protected method displays the account details
+ 
+
+Create a class CurrentAccount with following private attributes which extends Account class
+
+Attributes	Datatype
+tinNumber	String
+Create default constructor and a parameterized constructor with arguments in order CurrentAccount(String accName,String accNo,String bankName,String tinNumber).
+Include appropriate getters and setters.
+
+
+Include the following public methods.
+
+Method	Description
+void display()	This method calls the super class display().
+This public method displays the TIN number.
+Call this method with the reference of base class.
+ 
+
+Create a class SavingsAccount with following private attributes which extends Account class
+
+Attributes	Datatype
+orgName	String
+Create default constructor and a parameterized constructor with arguments in order SavingsAccount(String accName,String accNo,String bankName,String orgName).
+Include appropriate getters and setters.
+
+
+Include the following public methods.
+
+Method	Description
+void display()	This method calls the super class display().
+This public method displays the Organisation Name.
+Call this method with the reference of base class.
+ 
+
+Create a driver class named Main to test the above class.
+
+Note:
+  Strictly adhere to the Object-Oriented Specifications given in the problem statement.All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Input Format:
+The first input corresponds to choose current or savings account
+The next line consists of account name,account number,bank name,org name or tin number (according to chosen account type)
+
+Output Format
+The output consists of account details  and TIN number or Organisation name
+Refer sample output for formatting specifications.
+
+Sample Input/Output-1:
+Choose Account Type
+1.Savings Account
+2.Current Account
+1
+Enter Account details in comma separated(Account Name,Account Number,Bank Name,Organisation Name)
+Morsh,033808020000879,Baroda,Amphisoft
+Account Name:Morsh
+Account Number:033808020000879
+Bank Name:Baroda
+Organisation Name:Amphisoft
+
+Sample Input/Output-2:
+Choose Account Type
+1.Savings Account
+2.Current Account
+2
+Enter Account details in comma separated(Account Name,Account Number,Bank Name,TIN Number)
+Krish,131231451,ICICI,798902
+Account Name:Krish
+Account Number:131231451
+Bank Name:ICICI
+TIN Number:798902
+
+ 
+
+ 
