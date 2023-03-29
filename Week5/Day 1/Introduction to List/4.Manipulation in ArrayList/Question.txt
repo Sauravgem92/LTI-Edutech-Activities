@@ -1,0 +1,118 @@
+Let's do some manipulation in the list of objects. Start with creating a master class with some attributes. Create a BO class for it and add some function to manipulate the list of objects. Let's start with adding, replacing and displaying the objects in the list.
+
+Strictly adhere to the object Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a class Hall with the following private attributes,
+
+Attribute	Data Type
+name	String
+contactNumber	String
+costPerDay	Double
+ownerName	String
+
+Include appropriate getters and setters and constructors.
+
+Note: Use add() and set() methods to add and replace in the list.
+
+Create a Class HallBO to initialize the list with few objects and display all the details of objects.
+
+Include the following methods in the class HallBO
+
+Method	Description
+public List<Hall> getHallList()	returns a List of Halls with hardcoded values.
+public void displayAll(List<Hall> hallList)	displays all the halls in a tabular form
+
+Input format:
+The Input to add the hall details are Hall name, contact number,  cost per day, owner name
+The Input to replace the hall details is the Hall number which starts from 1 in the hall list and then the hall details(Hall name, contact number,  cost per day, owner name).
+
+Output format:
+Use "%-20s%-20s%-20s%-20s" for the formatting in the tabular form while displaying the details.
+System.out.printf("%-20s%-20s%-20s%-20s\n","Name","Contact Number","Cost per Day","Owner Name") use this statement in displayAll function.
+Refer to sample Input and Output for formatting specifications.
+
+[All Texts in bold corresponds to the input and rest are output]
+Sample Input and Output 1:
+
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+1
+Enter the name of the hall:
+SPK hall
+Enter the contact number of the hall:
+12345
+Enter the cost per day of the hall:
+10000
+Enter the owner name of the hall:
+John
+Hall added successfully
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+1
+Enter the name of the hall:
+DFG hall
+Enter the contact number of the hall:
+67890
+Enter the cost per day of the hall:
+20000
+Enter the owner name of the hall:
+Joe
+Hall added successfully
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+3
+Name                Contact Number      Cost per Day        Owner Name          
+SPK hall            12345               10000.0             John                
+DRG hall            67890               15000.0             Joe                 
+EFG hall            45678               20000.0             Jack                
+SPK hall            12345               10000.0             John                
+DFG hall            67890               20000.0             Joe                 
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+2
+Enter the hall number which should be replaced:
+5
+Enter the name of the replacement hall:
+ABC hall
+Enter the contact number of the replacement hall:
+45678
+Enter the cost per day of the replacement hall:
+30000
+Enter the owner name of the replacement hall:
+Jill
+Hall replaced successfully
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+3
+Name                Contact Number      Cost per Day        Owner Name          
+SPK hall            12345               10000.0             John                
+DRG hall            67890               15000.0             Joe                 
+EFG hall            45678               20000.0             Jack                
+SPK hall            12345               10000.0             John                
+ABC hall            45678               30000.0             Jill                
+Enter an option:
+1.Add
+2.Replace
+3.Display
+4.Exit
+4
+Exiting Application
+
+ 
+
+ 
