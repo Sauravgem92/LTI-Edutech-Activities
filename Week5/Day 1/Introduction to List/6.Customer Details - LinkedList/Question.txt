@@ -1,0 +1,20 @@
+When we started Collections, we heard representing data structures would be lot easier. We did work on ArrayList pretty much like an array. We might have learnt that inline with array there is also linked list which can also be used to implement abstract data types like Stack & Queue.
+
+Lets use the LinkedArrayList class and build a Stack of Customers. Read the list of customers from a text file. (input.txt)
+Create a main class "Main.java". 
+Create another class file "Customer.java" with the 'name', 'email' and 'phoneNO' as String type. Include appropriate getters and setters.
+Use the formatting "%-20s %-20s %-20s\n" while displaying the customer details. 
+Input and Output Format:
+Refer sample input and output for formatting specifications. 
+[All text in bold corresponds to input and the rest corresponds to output] 
+(Refer Supporting Documents for sample input file (input.txt)) 
+Sample Input / Output : 
+--------------------------------------------------------------------------------------
+Customer Name        Email                Phone Number        
+--------------------------------------------------------------------------------------
+Collin               collin@gmail.com     9563112000          
+Anandh               anandh@yahoo.com     9600761548          
+Praveen              praveen@yahoo.com    9584420136          
+Arun                 arun@microsoft.com   8147563201          
+Madhan               madhan@gmail.com     9597074313          
+--------------------------------------------------------------------------------------
