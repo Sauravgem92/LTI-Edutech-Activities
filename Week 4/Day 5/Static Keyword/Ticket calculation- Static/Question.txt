@@ -1,0 +1,57 @@
+Create a class Ticket with the following private variables
+
+int ticketid;
+int price;
+static int totalnooftickets;
+
+Include getters and setters and methods in the Ticket class.
+
+Write the following method in the Ticket class
+int Calculatetotalamount(int nooftickets)—this method should check the ticket availablity and calculate the total amount and return the total amount. If the tickets are available reduce the nofotickets from totalnooftickets.
+
+Sample input and output
+Enter no of objects:
+2
+Enter the Total no of tickets:
+25
+Enter the ticketid:
+123
+Enter the price:
+100
+Enter the no of tickets:
+5
+Total no of tickets: 25
+Total amount:500
+Total no of ticket after booking:20
+Enter the ticketid:
+124
+Enter the price:
+100
+Enter the no of tickets:
+2
+Total no of tickets: 20
+Total amount:200
+Total no of ticket after booking:18
+
+Sample input and output
+Enter no of objects:
+2
+Enter the Total no of tickets:
+25
+Enter the ticketid:
+123
+Enter the price:
+100
+Enter the no of tickets:
+30
+Total no of tickets: 25
+Sorry tickets not available.
+Enter the ticketid:
+126
+Enter the price:
+100
+Enter the no of tickets:
+2
+Total no of tickets: 25
+Total amount:200
+Total no of ticket after booking:23
