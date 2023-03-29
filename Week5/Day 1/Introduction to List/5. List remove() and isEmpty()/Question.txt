@@ -1,0 +1,86 @@
+Great to have collections in our application, right?. Let's get accustomed to remove() and isEmpty() methods of the ArrayList API and implement them in our application. Let's experiment with Hall class for performing these methods.
+
+Strictly adhere to the object Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a class named Hall having the following private attributes.
+
+Attributes	Datatype
+name	String
+contactNumber	String
+costPerDay	Double
+ownerName	String
+Include getters and Setters for the attributes and the default and parameterized constructors()
+Format for the parameterized constructor is Hall(String name, String contactNumber, Double costPerDay,String ownerName)
+
+Include the following method in the Hall class.
+
+Method 	Description
+void display()	This method prints the details of the Hall object. 
+
+Create a driver class called Main. In the Main method, obtain input from the console in a menu-driven format. and terminate.
+
+Input format:
+The first line of input is an integer which corresponds to the choice of which action to be done.
+The input to add the hall details is in the CSV format [Hall name, Contact number, Cost per day, Owner name].
+The input to remove the hall details is an integer that corresponds to the hall index number. The index starts from 0.
+
+Output format:
+Display the Hall details by iterating the Hall List and calling display() method after every remove action.
+If the Hall List is empty display "No Hall details to display".
+If the list is empty and a remove action is selected display "The list is empty" and terminate the program.
+If any action other than the specified is entered display "Please enter a valid choice".
+Use System.out.printf("%-20s%-20s%-20s%-20s") for displaying the Hall details in tabular form.
+
+Hint: Use isEmpty() and remove() methods of ArrayList API.
+
+[All text in bold corresponds to the input and rest corresponds to output]
+Sample Input and Output 1:
+
+Action
+1.Add Hall
+2.Remove Hall
+Enter your choice
+1
+Enter the Hall details in CSV format
+RR hall,9876543210,5000,Mahesh
+Do you want to continue?(Y/N)
+Y
+Action
+1.Add Hall
+2.Remove Hall
+Enter your choice
+1
+Enter the Hall details in CSV format
+KK hall,1234569870,7000,Rajesh
+Do you want to continue?(Y/N)
+Y
+Action
+1.Add Hall
+2.Remove Hall
+Enter your choice
+2
+Enter the index of the hall to be removed
+1
+Hall name           Contact number      Cost per day        Owner name          
+RR hall             9876543210          5000.0              Mahesh              
+Do you want to continue?(Y/N)
+N
+
+Sample Input and Output 2:
+
+Action
+1.Add Hall
+2.Remove Hall
+Enter your choice
+2
+The list is empty
+
+Sample Input and Output 3:
+Action
+1.Add Hall
+2.Remove Hall
+Enter your choice
+3
+Please enter a valid choice
+Do you want to continue?(Y/N)
+N
