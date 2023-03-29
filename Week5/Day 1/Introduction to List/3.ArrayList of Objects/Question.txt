@@ -1,0 +1,45 @@
+Let’s create a list of user-defined objects. Because the ArrayList of objects is a must if we are going to complete our application. As objects are created for a class it is added in an ArrayList. This is very helpful when we want to access those objects. So now let's try out a simple list of objects in our application, using ItemType class. Get the attributes to create an object then add them n a list for future manipulation.
+
+Strictly adhere to the object Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a class named ItemType with the following private attributes
+
+Attribute	Data Type
+name	String
+deposit	Double
+costPerDay	Double
+
+Included appropriate getters/setters, also include constructors.
+
+Note: Override toString method to print details of the ItemType object as the specified format. Use %-20s%-20s%-20s" for the format.
+
+Create a class Main and in the main method get the details of ItemTypes and store them in an ArrayList.
+
+Input and Output format:
+Use "%-20s%-20s%-20s" for formatting the output in tabular format.
+Refer to sample Input and Output for formatting specifications.
+
+Sample Input and Output :
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the details of Item Type 1
+Name:
+Light
+Deposit:
+1000
+Cost per Day:
+100
+Do you want to continue?(y/n)
+y
+Enter the details of Item Type 2
+Name:
+Fan
+Deposit:
+1000
+Cost per Day:
+50
+Do you want to continue?(y/n)
+n
+Name                Deposit             CostPerDay          
+Light               1000.0              100.0               
+Fan                 1000.0              50.0
