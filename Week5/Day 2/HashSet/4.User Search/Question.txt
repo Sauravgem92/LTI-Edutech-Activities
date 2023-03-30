@@ -1,0 +1,51 @@
+In your application, it is time to experiment with a Set of user-defined Objects. Just like List of objects, Set of objects is also relatively simple.
+Consider a Set of bank users. The set contains users who are inactive as well. The bank wants to retain only the Users who are active given a list of active users.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a User class with the following private attributes
+
+Attributes	Datatype
+username	String
+bankname	String
+Include appropriate getters and setters.
+Create default constructor and a parameterized constructor with arguments in order User(String username, String bankname).
+
+Note:
+Override equals method to compare the username
+Override the Comparable interface to sort Users in Alphabetical order of Username.
+
+In the Main class, Create a Set of user objects from the user input. Now obtain input in CSV format, create User objects and add to a List but with null values in bankName. Now Use retainAll() to remove elements in Set that are not in the present in the List.
+
+Input and output format:
+Refer to sample Input and Output for formatting specifications.
+
+Sample Input and Output 1:
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter number of users:
+3
+Enter details of user1
+Username:
+Rikhra
+Bank name:
+Bank of Baroda
+Enter details of user2
+Username:
+Krish
+Bank name:
+Lakshmi vilas Bank
+Enter details of user3
+Username:
+Saroja
+Bank name:
+Karur vysya Bank
+Enter username(Expire in one month) seperated by comma
+Saroja,Anil,Krish
+Users going to expire within a month
+User 1
+User Name = Krish
+Bank Name = Lakshmi vilas Bank
+User 2
+User Name = Saroja
+Bank Name = Karur vysya Bank
