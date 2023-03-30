@@ -1,4 +1,51 @@
+Sample Input and Output 1:
+Enter number of colleges
+2
+Enter the college details one by one
+11056-KCT-IT
+11011-SKCT-ECE
+Enter number of colleges to be displayed
+2
+First 2 college details
+11056-KCT-IT
+11011-SKCT-ECE
+Enter the collage code to search :
+11011
+Entered college code is found
 
+
+Sample Input and Output 2:
+Enter number of colleges
+4
+Enter the college details one by one
+12051-SREC-CSE
+12023-KSR-ECE
+11087-KIOT-IT
+13098-SRIT-EEE
+Enter number of colleges to be displayed
+5
+Invalid
+
+Sample Input and Output 3:
+Enter number of colleges
+4
+Enter the college details one by one
+12051-SREC-CSE
+12023-KSR-ECE
+11087-KIOT-IT
+13098-SRIT-EEE
+Enter number of colleges to be displayed
+2
+First 2 college details
+12051-SREC-CSE
+12023-KSR-ECE
+Enter the collage code to search :
+15035
+Entered college code is not found
+
+
+
+Code:-
 
 import java.io.BufferedReader;
 import java.io.IOException;
