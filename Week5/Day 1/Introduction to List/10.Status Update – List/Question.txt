@@ -1,0 +1,196 @@
+Write  a menu driven Java program to get the flight details, update the details of the flight and to display the same.
+Help the ground floor staff to update the flight status in airport(collections-list).
+
+First add the flight details and then update the status of the flight
+
+Create an ArrayList to get the details of the flight 
+
+Sample input and output:
+
+ 
+
+1.Schedule Flight
+
+2.change status
+
+3.Display
+
+4.Exit
+
+Enter your options:
+
+1
+
+Enter the flights details 1:
+
+Enter the flight name:
+
+Indigo
+
+Enter the flight number:
+
+x124hytocbe
+
+Enter the Status:
+
+Scheduled
+
+Do you want to add more flight(Yes/No):
+
+Yes
+
+Enter the flights details 2:
+
+Enter the flight name:
+
+Air-Asia
+
+Enter the flight number:
+
+x151chetocbe
+
+Enter the Status:
+
+Scheduled
+
+Do you want to add more flight(Yes/No):
+
+Yes
+
+Enter the flights details 3:
+
+Enter the flight name:
+
+Air-India
+
+Enter the flight number:
+
+x161hytomum
+
+Enter the Status:
+
+Scheduled
+
+Do you want to add more flight(Yes/No):
+
+No
+
+1.Schedule Flight
+
+2.change status
+
+3.Display
+
+4.Exit
+
+Enter your options:
+
+2
+
+Enter the flight number:
+
+1
+
+Enter the new status:
+
+Ready to board
+
+Do you want to change status(Yes/No):
+
+Yes
+
+Enter the flight number:
+
+2
+
+Enter the new status:
+
+Ready to board
+
+Do you want to change status(Yes/No):
+
+Yes
+
+Enter the flight number:
+
+1
+
+Enter the new status:
+
+Ready to depart
+
+Do you want to change status(Yes/No):
+
+Yes
+
+Enter the flight number:
+
+2
+
+Enter the new status:
+
+Ready to depart
+
+Do you want to change status(Yes/No):
+
+Yes
+
+Enter the flight number:
+
+3
+
+Enter the new status:
+
+Ready to board
+
+Do you want to change status(Yes/No):
+
+Yes
+
+Enter the flight number:
+
+3
+
+Enter the new status:
+
+Ready to depart
+
+Do you want to change status(Yes/No):
+
+No
+
+1.Schedule Flight
+
+2.change status
+
+3.Display
+
+4.Exit
+
+Enter your options:
+
+3
+
+Flight Status
+
+1 Ready to depart
+
+2 Ready to depart
+
+3 Ready to depart
+
+1.Schedule Flight
+
+2.change status
+
+3.Display
+
+4.Exit
+
+Enter your options:
+
+4
+
+You are logged-out
+
+ 
