@@ -1,0 +1,36 @@
+Anand and his family planned for a trip to Australia. While leaving from India, they planned to take a flight from Chennai to dubai and another flight from Dubai to Australia. They had to wait for about three hours in the dubai airport before they could leave for Australia. They planned to have food in Dubai Airport. Dubai's currency is Dinar. They had only Indian Rupees with them. Since they were not sure about how much of amount should be converted to dinar ,they decided to buy the food and then convert exactly the cost price to Dinar.
+Write a Java Program for this . 
+(Note : 1 Dinar = 18.565 Indian Rupees)
+Use TreeSet and sort based on cost in decending order.
+
+Input and Output Format:
+[ Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output. ]
+
+Sample input and output:
+
+Enter item
+Fried Rice
+Enter amount(Dinar)
+20
+Do you want to continue(yes/no):
+yes
+Enter item
+Chicken Lollipop
+Enter amount(Dinar)
+25
+Do you want to continue(yes/no):
+yes
+Enter item
+Coffee
+Enter amount(Dinar)
+5
+Do you want to continue(yes/no):
+no
+Total dinar required is:
+Item           Amount(Dinar)  
+Chicken Lollipop25             
+Fried Rice     20             
+Coffee         5              
+Total amount needed in Dinar: 50
+Total amount needed in Rupees: 928.25
