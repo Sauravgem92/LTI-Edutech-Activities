@@ -1,0 +1,49 @@
+Write a Java program to manage all the expenses based on a category and total amount. Prompt the user to know whether they want to continue to add expense or not and finally generate a report to display top spending categories and total amount spent as shown in the sample input and output.
+Since the categories are stored in sorted order so we use TreeSet<Expense> to store all the expense object. The template for the Expense class contains the method compareTo() to perform the comparation between two expense objects and return an integer value.  By default the iterator in treeset class returns the values in ascending order and for this requirment we can use descendingIterator() method to get the valeues in decending order. For more information on TreeSet refer to the Java API document.
+
+Create a main class "Main.java"
+Create Expense class with below attributes,
+expenseCategory - String
+amount - Integer
+Include a constructor for Expense class with arguments expense category and amount
+Include appropiate getter and setter for the expense class
+
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+Display the report Category and Amount seperated by following statement
+  "System.out.println(String.format("%-15s%-15s","Category", "Amount"));"
+
+
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input/Output :
+Enter expense category
+Rent
+Enter expense amount
+6000
+Do you want to continue(yes/no):
+yes
+Enter expense category
+Food
+Enter expense amount
+4500
+Do you want to continue(yes/no):
+yes
+Enter expense category
+Travel
+Enter expense amount
+2300
+Do you want to continue(yes/no):
+yes
+Enter expense category
+Mobile
+Enter expense amount
+700
+Do you want to continue(yes/no):
+no
+Top spending categories
+Category    Amount
+Rent    6000
+Food    4500
+Travel    2300
+Mobile    700
+Total amount spent: 13500
