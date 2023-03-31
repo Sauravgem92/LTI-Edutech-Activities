@@ -1,0 +1,41 @@
+Write a Java program to collect integer numbers from the user and calculate sum of digits and display the unique sum in sorted (asc) order.
+
+Create a main class "Main.java"
+Create NumberSet class to store all the integers provided by user in a collection and calculate sum of digits.
+
+Specification for NumberSet class
+
+Scope	Method/Attribute	Type/Return Type	Name	Details
+private	Attribute	Set<Integer>	numberSet	This set us used to hold the list of integers provided by the user
+public	Method	void	insertElement
+(Integer)	Insert the element into the numberSet
+public	Method	SortedSet	getSumDigits()	Compute sum of digits for each number in the numberSet and returns the unique sum.
+Use TreeSet to store the numbers in sorted order.
+
+Input and Output Format:
+
+ 
+
+First input corresponds to the number of integers (N) and followed by N number of integers.
+Read the numbers in your main class and call insertElement() method to insert into the collection
+Refer sample input and output for formatting specifications.
+
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input/Output :
+Enter number of integers:
+8
+56
+24
+35
+46
+12
+42
+56
+32
+Unique digit sum
+3
+5
+6
+8
+10
+11
