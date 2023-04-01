@@ -1,0 +1,23 @@
+Airports authorities will get the travellers list travelling various locations in different flights for each day. Help them to categorise the passengers belonging to the same flight . Given the passenger name and the flight name in which they travel, write a program to categorise the passengers belonging to the same flight .Use Treeset to do this program.
+
+Input and Output Format:
+[ Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output. ]
+
+Sample Input and Output :
+
+5
+Spicejet|shanmathi
+KingFisher|Thara
+Spicejet|Haveena
+KingFisher|Priya
+AirIndia|Krishna
+Flights and Passengers in ascending order
+AirIndia
+--Krishna
+KingFisher
+--Priya
+--Thara
+Spicejet
+--Haveena
+--shanmathi
