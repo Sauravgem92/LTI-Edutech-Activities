@@ -1,0 +1,41 @@
+Like List and Set, the other commonly used collection is Map. To understand it better, we shall go ahead and read customer information from a file.  (input.txt)
+Map<String, Customer> customerMap = new HashMap<String,Customer>();
+Map<Key,Value>
+Key - email id
+Value - customer object
+
+Display the details sorted by customer email id.
+
+Write a Java program to sort and display the call log. The call log contains details like Email id, Phone number, Start time, End Time.  The call log for a particular day is given in "input.txt" file.
+
+Create a main class "Main.java". 
+Create another class file "CallLog.java" with the 'email' and 'numberCalled' as String type, 'startTime' and 'endTime' as Date type. Include appropriate getters and setters.
+
+ 
+
+
+Implement HashMap with customer email as key and list of call logs as its value.
+
+ 
+
+ 
+Input and Output Format:
+Refer sample input and output for formatting specifications. 
+ 
+[All text in bold corresponds to input and the rest corresponds to output] 
+(Refer Supporting Documents for sample input file (input.txt))  
+ 
+Sample Input / Output : 
+ 
+Calls made by john@yahoo.com :
+Number Called : 9587412351  Call Time: 05/01/2015 10:55:15
+Calls made by madan@abc.com :
+Number Called : 9600174585  Call Time: 22/07/2015 16:55:15
+Number Called : 9600174585  Call Time: 25/09/2015 05:18:15
+Calls made by malini@yahoo.com :
+Number Called : 9600174585  Call Time: 14/11/2015 04:30:15
+Calls made by praveen@gmail.com :
+Number Called : 8147563200  Call Time: 15/03/2015 05:18:15
+Number Called : 9587412351  Call Time: 30/12/2015 06:00:15
+Number Called : 9600174585  Call Time: 01/01/2015 09:20:15
+Number Called : 9587412351  Call Time: 19/05/2015 12:00:15
