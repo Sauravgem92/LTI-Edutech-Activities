@@ -1,0 +1,40 @@
+Read 2n numbers as input where the first number represents a key and second one a value. Both the numbers are of type integers. First number corresponds to student id and the second number corresponds to student’s marks.
+
+Write a static method findPass  from UserMainCode to display the Ids of students who have scored above 75.
+
+Create a Class Main which would be used to read 2n numbers and build the hashmap. Call the static method present in UserMainCode.
+
+Input and Output Format:
+
+Input consists of a 2n+ 1 integers. The first integer specifies the value of n (essentially the hashmap size). The next pair of n numbers denote the key and value.
+
+Output consists of the ids of students who have scored more than 75. Display the ids of students in the order in which they appear in the input
+
+Refer sample output for formatting specifications.
+
+Sample Input 1:
+
+4
+
+2
+
+34
+
+1
+
+84
+
+5
+
+12
+
+4
+
+80
+
+
+Sample Output 1:
+
+1
+
+4
