@@ -1,0 +1,38 @@
+Read 2n numbers as input where the first number represents a key and the second one a value. Both the numbers are of type integers.
+
+Write a function getSumOfEven to find out sum of all values whose keys are represented by even numbers. Include this function in class UserMainCode.
+
+Create a Class Main which would be used to read 2n numbers and build the hashmap. Call the static method present in UserMainCode.
+
+Input and Output Format:
+
+Input consists of a 2n+ 1 integers. The first integer specifies the value of n (essentially the hashmap size). The next pair of n numbers denote the key and value.
+
+Output consists of an integer representing the desired sum.
+
+Refer sample output for formatting specifications.
+
+Sample Input 1:
+
+4
+
+2
+
+34
+
+1
+
+4
+
+5
+
+12
+
+4
+
+22
+
+
+Sample Output 1:
+
+56
