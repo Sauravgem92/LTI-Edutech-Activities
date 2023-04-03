@@ -1,0 +1,75 @@
+Write a program to read and display address details with respect to city and state using the map of maps.
+
+The first map will have the state as key with a map as value. The inner map will have the city as a key and the count of addresses in that city as value.
+
+Map<String,Map<String,Integer>> is the general format and Map<state,Map<city,count>> is the format for this problem.
+
+Consider a driver class Main and using the main method get the details, create a map, and display the details.
+
+
+Input Format:
+
+
+The first line has the number of address n.
+The next n lines have the addresses in CSV format. (area,city,state, pincode)
+Refer to the sample Input and Output for the formatting specifications.
+
+Output Format:
+
+
+Output has State name in the first line and each city name along with the count of address in the city in the next lines.
+A line space between 2 different states.
+The order of output must be in lexicographical order for both state and city.
+
+
+Sample Input/Output 1:
+[All Texts in bold corresponds to the input and rest are output]
+
+
+Enter the number of address:
+3
+Enter the address:
+Avocado Ave,Newport Beach,california,92660
+Enter the address:
+Beachwalk,Honolulu,Hawaii,96815
+Enter the address:
+Hana Highway,Maui,Hawaii,96815
+Number of entries in city/state wise:
+
+
+State:Hawaii
+City:Honolulu Count:1
+City:Maui Count:1
+
+State:california
+City:Newport Beach Count:1
+
+
+
+Sample Input/Output 2:
+
+Enter the number of address:
+5
+Enter the address:
+Wailea Drive,Kihei,Hawaii,96753
+Enter the address:
+Manor,Austin,Texas,73301
+Enter the address:
+Avocado Ave,Newport Beach,california,92660
+Enter the address:
+Beachwalk,Honolulu,Hawaii,96815
+Enter the address:
+Hana Highway,Maui,Hawaii,96815
+Number of entries in city/state wise:
+
+
+State:Hawaii
+City:Honolulu Count:1
+City:Kihei Count:1
+City:Maui Count:1
+
+State:Texas
+City:Austin Count:1
+
+State:california
+City:Newport Beach Count:1
