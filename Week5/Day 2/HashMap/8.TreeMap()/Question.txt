@@ -1,0 +1,33 @@
+To assist Event organizers, you need to develop a console application that shows the number of tickets sold in a particular price category. Thus enabling them to increase or decrease seats allocated for different price levels and thereby boosting ticket sales. The list of booking details that contains customer and price details is given. 
+
+
+Use TreeMap with price as key and number of seats booked as value.
+
+Consider a driver class named Main. In the main method, obtain details and display the price along with the number of tickets in increasing order of price.
+
+
+Input Format:
+
+
+The first line of the input corresponds to the number of events 'n'.
+The next 'n' line of inputs corresponds to the event details in CSV format (Customer Name, Ticket Price, No of Seats Booked).
+Refer to Sample Input and Output for formatting specifications.
+
+Output Format:
+
+The output consists of the number of tickets booked for a particular ticket price in increasing order of price.
+Use ("%-15s %s\n","Ticket Price","Tickets Booked") for the format.
+Refer to Sample Input and Output for formatting specifications.
+
+Sample Input and Output :
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the number of events:
+3
+Enter event details in CSV(Customer Name,Ticket Price,No of Seats Booked)
+Emily,100,5
+Natalie,200,10
+Grace,100,3
+Ticket Price    Tickets Booked
+100                 8
+200                 10
