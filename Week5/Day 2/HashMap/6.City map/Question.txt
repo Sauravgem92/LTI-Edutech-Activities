@@ -1,0 +1,59 @@
+Given list of addresses as input, create a map Map<String,List<Address>> with city name as key and list of address that corresponds to the city as value.
+
+Write a program to get the city name as input from the user and display the addresses with the city name as that of the given city by fetching the list of addresses from the map.
+
+Create a class called Address with the following private attributes.
+
+Attributes	Datatype
+addressLine1	String
+addressLine2	String
+city	String
+state	String
+pincode	Integer
+Include appropriate getters and setters.
+Include default and parameterized courseIdfor the class.
+Format for the Parameterized Constructor Address(String addressLine1, String addressLine2, String city,String state, Integer pincode)
+
+Include the following methods in the Address class
+
+Method	Description
+Map<String,List<Address>> generateCityAddressMap(Map<String,List<Address>> cityAddressMap, Address address)	Thie method takes the cityAddressMap and address object as inputs and map the address objects to the cityAddressMap with city name as key and list of addresses as value.
+List<Address> searchCity (Map<String,List<Address>> cityAddressMap, String city)	This method takes the cityAddressMap and city name as inputs and return the list of addresses mapped with the city by searching through the cityAddressMap.
+
+
+Create a driver class called Main. In the Main method, obtain address details from the input and create the map of above specification. Obtain a city as a search term and display the address that has the given city. If no such address is present, Print "Searched city not found".
+
+Note: 
+[Strictly adhere to the Object-Oriented Specifications given in the problem statement.
+All class names, attribute names and method names should be the same as specified in the problem statement.]
+
+Input format:
+
+First line corresponds to number of address details
+Next n lines consists of n address details in CSV format in the order (addressLine1, addressLine2, city, state, pincode)
+n+1th  line consists of city input
+
+Output format:
+
+Address details are displayed in tabular format.(Use "%-15s %-15s %-15s %-15s %s\n" for formatting Address details.)
+
+[All text in bold corresponds to the input and rest corresponds to the output]
+Sample Input/Output:
+
+Enter the number of address
+4
+Enter the address 1 detail
+22nd lane,RR nagar,Chennai,Tamil nadu,600028
+Enter the address 2 detail
+3rd street,KRK nagar,Visak,Andhrapradesh,745601
+Enter the address 3 detail
+1/45 8th street,KK nagar,Chennai,Tamil nadu,600021
+Enter the address 4 detail
+5/15 7th lane,RK nagar,Madurai,Tamil nadu,625001
+Enter the city to be searched
+Chennai
+Line 1          Line 2          City            State           Pincode
+22nd lane       RRnagar        Chennai         Tamilnadu      600028
+1/45 8th street KKnagar        Chennai         Tamilnadu      600021
+
+ 
