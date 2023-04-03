@@ -1,0 +1,43 @@
+Write a java program to register all the player details [Bowler] and provide a quick view of number of wickets taken by the player based on the name of the player. 
+Use HashMap  to store all the wickets, Key will be the name of the player and value contains the player object. Multiple wickets for a player is provided using a delimiter pipe "|". 
+Create a main class "Main.java" 
+Create Bowler  class with below attributes,
+name - String
+Add appropriate getter and setter methods for Bowler class
+Create constructor for Bowler class with argument name
+Create Wicket class with below attributes,
+playerName - String
+Bowler - Bowler object
+Add appropriate getter and setter methods for Wicket class
+Create constructor for Wicket class with arguments description and Bowler object
+Provide search option to search based on the name of the bowler and display all the wickets taken by him.
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input/Output :
+Enter the player name 
+Ashwin 
+Enter wickets - seperated by "|" symbol 
+Virat Kohli|Shane Watson|Ajinkya Rahane 
+Do you want to add another player (yes/no) 
+yes 
+Enter the player name 
+Bravo 
+Enter wickets - seperated by "|" symbol
+Robin Uthapa 
+Do you want to add another player (yes/no) 
+no 
+Enter the player name to search 
+Morkel 
+No player found with the name Morkel 
+Do you want to search another player (yes/no) 
+yes 
+Enter the player name to search 
+Ashwin 
+Player Name : Ashwin 
+Wickets :
+Virat Kohli
+Shane Watson
+Ajinkya Rahane 
+Do you want to search another player (yes/no) 
+no 
