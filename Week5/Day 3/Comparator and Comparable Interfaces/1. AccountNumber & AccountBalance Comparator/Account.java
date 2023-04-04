@@ -72,10 +72,8 @@ public class Account {
 
 	@Override
 	public String toString() {
-		System.out.printf("%-20s %-20s %-20s %-20s %-20s %-20s\n", this.accountId, this.accountNumber,
+		return String.format("%-20s %-20s %-20s %-20s %-20s %-20s\n", this.accountId, this.accountNumber,
 				this.accountBalance, this.accountType, this.status, this.customerID);
-
-		return null;
 	}
 
 }
