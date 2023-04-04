@@ -34,13 +34,13 @@ public class Main {
 			Collections.sort(accountList,new AccountBalanceComparator());
 			System.out.printf("%-20s %-20s %-20s %-20s %-20s %-20s\n", "Account Id", "Account Number", "Account Balance","Account Type", "status", "Customer Id");
 		    for(Account a:accountList) {
-		     	a.toString();
+		     	System.out.print(a.toString());
 		    }
 		}else if(choice==2) {
 			Collections.sort(accountList,new AccountNumberComparator());
 		    System.out.printf("%-20s %-20s %-20s %-20s %-20s %-20s\n", "Account Id", "Account Number", "Account Balance","Account Type", "status", "Customer Id");
 		    for(Account a:accountList) {
-		     	a.toString();
+		     	System.out.print(a.toString());
 		    }
 		}else{
 			System.out.println("Invalid choice");
