@@ -1,0 +1,70 @@
+Write a program to take hall objects as input in the list and sort them in the order of their costPerDay using the sort() method of the comparable interface. Then display them in tabular form.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+Consider the class Hall with the following private attributes,
+
+Attribute	Data type
+name	String
+contactNumber	String
+costPerDay	Double
+ownerName	String
+ 
+
+Include appropriate getters and setters.
+Prototype for the Parameterized Constructor, Hall (name,contactNumber,costPerDay,ownerName).
+
+Override toString() and print the details in a tabular format. And implement the comparable interface in the class.
+
+Consider the class Main and use the main method to get inputs, sort, and display.
+
+The link to download the template code is given below
+Code Template
+
+Input Format:
+
+The first line has the number of halls n.
+The next n lines have details of the hall in CSV format.
+
+Output format:
+
+Use "%-15s%-15s%-15s%-15s" to display the hall details in the sorted order based on the cost per day as in tabular form.
+All the double values should be displayed upto 1 decimal place.
+Refer to sample input and output for other further details and format of the output.
+
+Note: All Texts in bold corresponds to the input and the rest are output.
+
+Sample Input and Output 1:
+
+Enter the number of halls:
+3
+Enter the details of hall 1
+SDH hall,12345,12000,Jane
+Enter the details of hall 2
+SRT hall,13579,20000,John
+Enter the details of hall 3
+XUV hall,24680,15000,Jack
+Sorted Order (from the least expensive to the most):
+Name           Contact number Cost per day   Owner name     
+SDH hall       12345          12000.0        Jane           
+XUV hall       24680          15000.0        Jack           
+SRT hall       13579          20000.0        John   
+
+Sample Input and Output 2:
+
+Enter the number of halls:
+4
+Enter the details of hall 1
+ABC hall,12345,13000,John
+Enter the details of hall 2
+STR hall,13579,25000,Jane
+Enter the details of hall 3
+DFG hall,24680,10000,Jack
+Enter the details of hall 4
+JKL hall,67890,20000,Joe
+Sorted Order (from the least expensive to the most):
+Name           Contact number Cost per day   Owner name     
+DFG hall       24680          10000.0        Jack           
+ABC hall       12345          13000.0        John           
+JKL hall       67890          20000.0        Joe            
+STR hall       13579          25000.0        Jane   
