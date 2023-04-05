@@ -1,0 +1,47 @@
+*************************************************************************************************************************************************************
+
+Indian Airways plans to provide extra amenities for the passengers above 60 years of age. Help them find the passengers  by sorting and to display the passengers list with age in the descending order. If two passengers are in same age, then sort them in descending order based on name. Write a program to do this.
+
+Note: Use a map to store the details such that name of the passenger as key and age as value. Sort the map based on age
+
+
+Input and Output Format:
+[ Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output. ]
+
+
+Sample Input and Output :
+
+Enter the number of passengers
+6
+Enter the name of the passenger 1
+Haritha
+Enter the age of the passenger 1
+25
+Enter the name of the passenger 2
+Shanmathi
+Enter the age of the passenger 2
+23
+Enter the name of the passenger 3
+Thara
+Enter the age of the passenger 3
+26
+Enter the name of the passenger 4
+Gopal
+Enter the age of the passenger 4
+65
+Enter the name of the passenger 5
+Krishna
+Enter the age of the passenger 5
+45
+Enter the name of the passenger 6
+Lakshmi
+Enter the age of the passenger 6
+35
+Passengers Details by age(High to Low)
+1 Gopal 65
+2 Krishna 45
+3 Lakshmi 35
+4 Thara 26
+5 Haritha 25
+6 Shanmathi 23
