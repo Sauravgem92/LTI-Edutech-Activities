@@ -1,0 +1,47 @@
+Given the list of Address details, sort them based on Pincode. If two address has the same Pincode, then sort them based on address line 1. Write a program to sort the users based on Pincode when certain details (City and state details) are unavailable.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+
+Consider the class Address with the following private attributes
+
+Attributes	Datatype
+username	String
+addressLine1	String
+addressLine2	String
+pinCode	Integer
+Include appropriate getters and setters
+Create default constructor and a parameterized constructor with arguments in order
+Address(String username, String addressLine1, String addressLine2, Integer pinCode).
+
+The Address class implements the comparable interface. Compare Pincode, If Pincode is the same then compare with addressLine1.
+
+Consider the class Main to test the above class. Obtain input from the console and sort the user list based on pincode.
+
+The link to download the template code is given below
+Code Template
+
+Input Format:
+
+The first line input corresponds to the number of users 'n'.
+The next 'n' line of inputs corresponds to the user details in CSV format(Username,AddressLine 1,AddressLine 2,PinCode).
+Refer to sample input for formatting specifications.
+
+Output Format:
+
+The output consists of user details in the CSV format in sorted order. Print the output in the main method.
+Refer to sample output for formatting specifications.
+
+Sample Input and Output 1:
+[All text in bold corresponds to the input and rest corresponds to the output]
+
+Enter the number of users:
+3
+Enter user address in CSV(Username,AddressLine 1,AddressLine 2,PinCode)
+Martin,Avocado Ave,Newport Beach,92660
+Justin,Beachwalk,Honolulu,96815
+Josh,Wailea Drive,Kihei,96753
+User Details:
+Martin,Avocado Ave,Newport Beach,92660
+Josh,Wailea Drive,Kihei,96753
+Justin,Beachwalk,Honolulu,96815
