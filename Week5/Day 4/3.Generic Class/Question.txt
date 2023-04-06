@@ -1,0 +1,48 @@
+ABC Association stores details of donors like phone number and email. Some people has phone number as primary contact and others has email as primary contact. So use generic type for storing the phone number and email.
+
+Write a program to display the list of phone numbers provided as primary contact.
+
+[Note :
+Strictly adhere to the object oriented specifications given as a part of the problem statement.
+Follow the naming conventions as mentioned. Create separate classes in separate files.]
+
+Create a class named Contact with the following private member variables / attributes.
+
+Attribute	DataType
+_att1	Generic Type[T1]
+_att2	Generic Type[U1]
+
+Include appropriate  getters and setters.
+
+In the Contact class include the following methods.
+
+Method
+
+Description
+
+void print()
+
+ In this method, display the phone numbers who gave contact number as their primary contact.
+
+
+Create another class Program and write a main method to test the above class.
+
+In the Main() method, read the contact details from the user and call the print() method. Display the line “List of contact numbers” inside the main method.
+
+Constraints :
+Phone number must starts with "91".
+
+Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output.
+
+Sample Input and Output 1:
+Enter number of details
+4
+Enter contact details
+harini@gmail.com,918509656536
+mini@gmail.com,918742103636
+divya@gmail.com,919500487456
+918036524100,ramya@gmail.com
+List of contact numbers
+918036524100
+
