@@ -1,0 +1,37 @@
+In our application, there are many item types. When someone wants to see them it will be a mess. So we want to arrange them in particular orders. Thus get the input of item type details from the user and sort it before displaying. So write a program to get item types and display it in sorted order (by item type name).
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+Create a class ItemType with the following private attributes,
+Attributes	Datatype
+name	String
+costPerDay	Double
+deposit	Double
+
+Create default constructor and a parameterized constructor with arguments in order ItemType(String name, Double costPerDay, Double deposit). Include appropriate getters and setters.
+
+Get the number of item types and item type details and sort the item type details using lambda expression by the name of the item type and display all the item type details.
+
+Create a driver class named Main to test the above class.
+
+Input Format:
+The first line of input is an integer which corresponds to the number of item types 'n'.
+The next 'n' lines of inputs are String which corresponds to the item type details separated by comma (Name,Cost,Deposit) .
+
+Output Format
+The output consists of item type details sorted by item type name.
+Use "%-10s %-10s %s\n” for the formatting.
+Refer sample output for formatting specifications.
+
+Sample Input and Output:
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the number of item types:
+3
+Furniture,3000,10000
+Book,4000,15000
+Steel,7000,40000
+Name       Cost       Deposit
+Book       4000.0     15000.0
+Furniture    3000.0     10000.0
+Steel      7000.0     40000.0
