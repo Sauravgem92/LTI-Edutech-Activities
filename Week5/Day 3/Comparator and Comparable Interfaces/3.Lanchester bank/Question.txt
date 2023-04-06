@@ -1,0 +1,152 @@
+Lanchester bank is having an application to register the customer's details.  Compare Customer Account functionality in the application will compare two customers account details and inform whether two accounts are the same or different
+
+Write a program to get two customer details with the account number and check if the account number of both customers are identical or not.
+Print all the customer details, if both the Customer has the same Account number print “Both Account numbers are same” else print  “Both Account numbers are different”.
+
+Override compareTo method in Account class to check if both account numbers are the same and override toString method to display the details.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, member variable names and function names should be the same as specified in the problem statement.
+
+Create a class called Role with the following private attributes.
+
+Datatype	Attributes
+String	name
+
+Include appropriate default constructor, parameterized constructor and getters and setters for the above class
+
+Create a class called User with the following private attributes.
+
+Datatype	Attributes
+String	name
+String	username
+String	password
+String	email
+String	mobileNumber
+String	address
+
+Include appropriate default constructor, parameterized constructor and getters and setters for the above class
+
+Create a class called Customer which inherits User with the following private attributes.
+
+Datatype	Attributes
+String	customerId
+User	user
+Include appropriate default constructor, parameterized constructor and getters and setters for the above class
+
+Create a class called Account with the following private attributes.
+
+Datatype	Attributes
+int	id
+String	accountNumber
+AccountType	accountType
+Customer	customer
+ 
+
+Include appropriate default constructor, parameterized constructor and getters and setters for the above class
+
+ 
+
+Create a class called AccountType with the following private attributes.
+
+Datatype	Attributes
+String	accountType
+
+Include appropriate default constructor, parameterized constructor and getters and setters for the above class
+
+
+Note:
+Display Customer Details using the below format.
+System.out.format("%-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s\n","Customer Id","Customer Name","Customer Username","Customer MobileNumber","Customer Email","Customer Address","Account Number","Account Type");
+Username is same as email.
+The values for the classes Role, CustomerStatus, PolicyStatus  are prefilled as given below,
+Role roleObj = new Role("Customer");
+
+Sample Input and Output1
+Enter the details of Account1
+Enter Name:
+Jimesh
+Enter Email:
+jimesh@gmail.com
+Enter mobile number:
+9654782135
+Enter Address:
+Coimbatore
+Enter Password:
+123
+Enter Customer Id:
+C12
+Enter Account Id:
+1254
+Enter the Account Number:
+ACD123GK
+Enter Account Type:
+Fixed
+Enter the details of Account2
+Enter Name:
+Jimesh
+Enter Email:
+jimesg@gmail.com
+Enter mobile number:
+9654782135
+Enter Address:
+Coimbatore
+Enter Password:
+123
+Enter Customer Id:
+C12
+Enter Account Id:
+1254
+Enter the Account Number:
+ACD123GK
+Enter Account Type:
+Fixed
+Account Details
+Customer Id     Customer Name   Customer Username     Customer MobileNumber   Customer Email        Customer Address     Account Number    Account Type   
+C12                           Jimesh                     jimesh@gmail.com            9654782135                     jimesh@gmail.com           Coimbatore                   ACD123GK               Fixed             
+C12                           Jimesh                     jimesg@gmail.com            9654783125                     jimesg@gmail.com           Coimbatore                  ACD123GK                Fixed             
+Both Account Numbers are same
+
+Sample Input and Output2
+Enter the details of Account1
+Enter Name:
+Jimesh
+Enter Email:
+jimesh@gmail.com
+Enter mobile number:
+9654782135
+Enter Address:
+Coimbatore
+Enter Password:
+123
+Enter Customer Id:
+C12
+Enter Account Id:
+126
+Enter the Account Number:
+ACD173GK
+Enter Account Type:
+Fixed
+Enter the details of Account2
+Enter Name:
+Jimesh
+Enter Email:
+jimesg@gmail.com
+Enter mobile number:
+9654782135
+Enter Address:
+Coimbatore
+Enter Password:
+123
+Enter Customer Id:
+C12
+Enter Account Id:
+1254
+Enter the Account Number:
+ACD123GK
+Enter Account Type:
+Fixed
+Account Details
+Customer Id     Customer Name   Customer Username     Customer MobileNumber   Customer Email        Customer Address     Account Number    Account Type   
+C12                           Jimesh                     jimesh@gmail.com            9654782135                     jimesh@gmail.com           Coimbatore                   ACD173GK               Fixed             
+C12                           Jimesh                     jimesg@gmail.com            9654783125                     jimesg@gmail.com           Coimbatore                  ACD123GK                Fixed             
+Both Account Numbers are different
