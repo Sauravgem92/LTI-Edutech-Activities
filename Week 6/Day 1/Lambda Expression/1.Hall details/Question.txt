@@ -1,0 +1,40 @@
+In our application, there are many halls. When someone wants to see them it will be a mess. So we want to arrange them in particular orders. Thus get the input of item type details from the user and sort it before displaying. So write a program to get halls and display it in sorted order (by hall name).
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+
+Create a class Hall with the following private attributes,
+
+Attributes	Datatype
+name	String
+costPerDay	Double
+owner	String
+
+Create default constructor and a parameterized constructor with arguments in order Hall(String name, Double costPerDay, String owner). Include appropriate getters and setters.
+
+Get the number of halls and hall details from the user and sort the hall details using lambda expression by the owner of the hall and display all the hall details.
+
+Create a driver class named Main to test the above class.
+
+
+Input Format:
+The first line of input is an integer which corresponds to the number of halls 'n'.
+The next 'n' lines of inputs are String which corresponds to the hall details separated by comma (Name,Cost,Owner) .
+
+Output Format:
+The output consists of hall details sorted by owner name.
+Use System.out.format("%-15s %-10s %s\n","Name","Cost","Owner") to print the details
+Refer sample output for formatting specifications.
+
+Sample Input and Output:
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the number of halls:
+3
+Party hall,4000,Jarviz
+Disco hall,5000,Starc
+Dining hall,3000,Chris
+Name            Cost       Owner
+Dining hall     3000.0     Chris
+Party hall      4000.0     Jarviz
+Disco hall      5000.0     Starc
