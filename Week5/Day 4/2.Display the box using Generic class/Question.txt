@@ -1,0 +1,45 @@
+Write a java program to read and display the box values using Generic class.
+
+ 
+
+Create a class Box with following attributes and method.
+
+Attribute	DataType
+length	Generic Type[T1]
+width	Generic Type[T2]
+depth	Generic Type[T3]
+ 
+
+Include an appropriate parameterized constructor.
+
+Include a method print( ) in the Box class to display all the values.
+
+public void print( )
+
+In the main method invoke print( ) method to display the values.
+
+ 
+
+Input and Output format:
+
+Get Interger inputs for length, width and depth and display.
+
+ 
+
+Refer sample input and output for formatting specifications.
+
+All text in bold corresponds to input and the rest corresponds to output.
+
+ 
+
+Sample Input and Output:
+
+Enter the values for length, width and depth : 
+10
+20
+30
+Length : 10
+Width : 20
+Depth : 30
+
+ 
