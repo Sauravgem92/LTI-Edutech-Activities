@@ -1,0 +1,23 @@
+Write a program to sort and display integer array and double array by using generic method.
+
+Constraints :
+Use Generic method "printArray(E[] elements) to sort and display the values.
+
+Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output.
+
+Sample Input and Output 1:
+Enter n
+2
+Enter integers one by one
+9
+1
+Enter double values one by one
+2.5
+1.5
+Printing Integer Array
+1
+9
+Printing Double Array
+1.5
+2.5
