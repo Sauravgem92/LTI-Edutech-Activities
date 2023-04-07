@@ -1,0 +1,53 @@
+Write a program to get Expenses details and Salary detail from the user, add it to the list, map all expense and calculate sum of all expenses using reduce from Java Streams and check for the following conditions.
+
+If the total expenses go above salary amount, then display the message "Expenses exceeds Salary"
+If the total expenses are less than or equal to the salary amount, then display the remaining amount as "Savings amount will be Rs<..>".
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+ 
+
+Create a class named Expenses with the following private attributes/variables.
+
+Data type	Variable
+String	expenseType
+Double	cost
+Include appropriate getters and setters.
+Include default and parameterized constructors
+
+expenseType include food, rent, shopping, groceries, ebBill(electricity bill)
+
+Create a class Main with the main method. In the method, get Expenses details from the user and also salary from the user, add it to the list, map the expense cost, and get sum using reduce method.
+
+ 
+
+Sample Input and Output 1:
+
+Enter expense for food
+800
+Enter expense for rent
+1800
+Enter expense for shopping
+2000
+Enter expense for groceries
+1500
+Enter expense for electricity
+1500
+Enter salary
+10000
+Savings amount will be Rs.2400.0
+
+Sample Input and Output 2:
+
+Enter expense for food
+4000
+Enter expense for rent
+7500
+Enter expense for shopping
+6000
+Enter expense for groceries
+5800
+Enter expense for electricity
+3000
+Enter salary
+25000
+Expenses exceeds Salary
