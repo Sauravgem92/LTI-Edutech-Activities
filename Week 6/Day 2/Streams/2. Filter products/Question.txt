@@ -1,0 +1,50 @@
+Write a program to filter products which are less than the given price from the list of products.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names and method names should be the same as specified in the problem statement.
+
+ 
+
+Create a class named Product with the following private attributes/variables.
+
+Data type	Variable
+String	name
+String	brand
+String	productCategory
+String	color
+Double	price
+Include appropriate getters and setters.
+Include default and parameterized constructors in the order public Product(String name, String brand, String productCategory, String color, Double price)
+
+ 
+
+Include the following method in the Product class
+
+Method name	Method Description
+public List<Product> getAllProducts()	This method is a pre-filled method which returns a list of products.
+public List<Product> filterProducts(Double price)	This method is used to filter the products based on the price given from the list of products and return the filtered list of products.
+ 
+
+Create a class Main with main method. In the method, read inputs, pass it to the methods of Product class to filter the products and display list of filtered products.
+
+Use the below format to print the details in table :
+System.out.format("%-20s %-20s %-20s %-10s %s\n","Name","Brand","Category","Color","Price");
+
+
+[All Texts in bold corresponds to the input and rest are output]
+
+Sample Input and Output 1:
+
+Enter the maximum price of the product
+10000
+List of Filtered Products
+Name                 Brand                Category             Color      Price
+Chai                 Plywood              furniture            brown      4999.0
+USB                  HP                   USB                  white      1000.0
+Diningtable          Plywood              furniture            yellow     10000.0
+DiningSet            LG                   Furniture            Blue       9000.0
+DigitalOven          Mintwud              Electronics          Black      10000.0
+
+Sample Input and Output 2:
+Enter the maximum price of the product
+10
+No products found within the given price
