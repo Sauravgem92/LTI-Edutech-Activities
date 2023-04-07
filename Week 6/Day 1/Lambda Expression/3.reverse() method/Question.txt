@@ -1,0 +1,54 @@
+In the collection, the sort() method sorts the objects in ascending order. Suppose if we want to sort the list of objects in descending order, we can use the reverse() method. Write a program to implement the reverse() method along with sort() to sort the list of User objects in descending order.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+Consider a class User with the following private attributes,
+Attribute	Data type
+name	String
+mobileNumber	String
+username	String
+password	String
+
+Include appropriate getters and setters, default constructor, and parameterized constructor.
+
+Override toString() and print the details in a tabular format.
+
+Implement Comparable and sort the user objects based on name and reverse it by using the reverse().
+
+Consider a driver class Main and using the main method get the details, create a map, and display the details.
+
+Note:
+
+Sort the user details based on the name of the user.
+
+The link to download the template code is given below
+Code Template
+
+Input format:
+
+The first line of input consists of a number of users n.
+The next n line of input consists of user details in the CSV format (name, mobileNumber, userName, password).
+
+Output format:
+
+Display the name and the mobile number of the user in the reverse order.
+Use "%-15s%-15s" to display details in tabular format.
+Refer to sample input and output for other further details and format of the output.
+
+Sample Input and Output 1:
+
+[All Texts in bold corresponds to the input and rest are output]
+
+Enter the number of users:
+3
+Enter the details of User 1
+Jack,12345,Jack,Jack
+Enter the details of User 2
+Jane,13579, Jane, Jane
+Enter the details of User 3
+John,24680, John, John
+The user details in reverse order:
+Name           Mobile number  
+John           24680          
+Jane           13579          
+Jack           12345
