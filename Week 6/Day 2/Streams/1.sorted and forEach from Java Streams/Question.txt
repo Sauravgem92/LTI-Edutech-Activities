@@ -1,0 +1,52 @@
+Write a program to get Ticket Booking details from the user, add it to the list, sort the list by price, and display it using sorted and forEach from Java Streams.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+ 
+
+Create a class named TicketBooking with the following private attributes/variables.
+
+Data type	Variable
+String	customerName 
+Integer	noOfTickets
+Double	price
+Include appropriate getters and setters.
+Include default and parameterized constructors
+Include toString function
+
+ 
+
+Create a class Main with the main method. In the method, get TicketBooking details from the user, add it to the list, sort the list by price, and display it.
+
+Use the below format to print the details in table :
+
+System.out.format("%-10s %-15s %-15s\n", "Customer", "No Of Tickets", "Price");
+
+ 
+
+Sample Input and Output:
+
+Enter number of bookings
+3
+Enter customer name
+Ravi
+Enter number of tickets
+4
+Enter the price
+320
+Enter customer name
+Collin
+Enter number of tickets
+2
+Enter the price
+210
+Enter customer name
+Mohan
+Enter number of tickets
+1
+Enter the price
+160
+Customer   No Of Tickets   Price          
+Mohan      1               160.0          
+Collin     2               210.0          
+Ravi       4               320.0     
