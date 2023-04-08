@@ -1,0 +1,33 @@
+Write a program to get Employee details from input.txt, add all details to list, and display it using parallel streams from Java Streams.
+
+Strictly adhere to the Object-Oriented specifications given in the problem statement. All class names, attribute names, and method names should be the same as specified in the problem statement.
+
+ 
+
+Create a class named Employee with the following private attributes/variables.
+
+Data type	Variable
+String	name
+Double	salary
+Include appropriate getters and setters.
+Include default and parameterized constructors
+Include toString function
+
+ 
+
+Create a class Main with the main method. In the method, get Employee details from input.txt, add it to the list, and display it.
+
+Use the below format to print the details in the table :
+
+ 
+
+Sample Input: input.txt
+
+Sample Output:
+
+Name       Salary         
+Rohan      25000.0        
+Krishna    31000.0        
+Girish     29000.0        
+Kiran      27000.0        
+Rita       29500.0
