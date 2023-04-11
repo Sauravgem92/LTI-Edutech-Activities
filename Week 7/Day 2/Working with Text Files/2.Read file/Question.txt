@@ -1,0 +1,30 @@
+Create a class named Stall with the following private attributes/variables.
+
+Data Type	Variable
+String	name
+String	category
+String	owner
+Include appropriate getters and setters.
+Include default and parameterized constructor with parameters in the following order,
+public Stall(String name, String category, String owner)
+
+Create a class StallBO with the following method.
+
+Method 	Description
+public Stall readStallFromFile()	In this method, read the file “input.txt” and convert the stall object. Return stall object.
+public void display(Stall stall)	In this method, the stall details are displayed as given in the sample output.
+ 
+
+Create a driver class Main with main method, to read stall details from file input.txt using the method readStallFromFile(). Display the stall details in the console using display() method.
+
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+
+Sample Input (input.txt):
+Planet of graphs,Maxima,Cassandra
+
+Sample Output :
+
+Name: Planet of graphs
+Category: Maxima
+Owner: Cassandra
