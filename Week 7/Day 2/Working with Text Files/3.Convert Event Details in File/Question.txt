@@ -1,0 +1,36 @@
+Create a class Event with the following private attributes/variables.
+
+Data Type	 Variable
+String	name
+String	details
+String	manager
+
+Include appropriate properties.
+Include default and parameterized constructor with parameters in the following order,
+public Event(String name, String details, String manager)
+
+ 
+
+Create another class named EventBO with the following member functions
+
+Method	Description
+public void saveToFile(Event event)	In this method, save the event details in the event.txt file. Refer to the sample output format.
+
+Create a Main class with the main method, to test the above class.
+Get the event details from the user and save in file using saveToFile() method.
+
+Input and Output Format
+Refer to sample input and output for formatting specifications.  
+All text in bold corresponds to the input and the rest corresponds to output.
+
+ 
+
+Sample input from the console:
+Enter the event name
+Bday Party
+Enter the event details
+Mike Hannigon's birthday
+Enter the event manager
+John
+
+Sample output file: (event.txt)
