@@ -1,0 +1,42 @@
+
+Create class Event with the following private attributes/variables.
+
+Attribute	 Datatype
+name	String
+details	String
+manager	String
+
+Include appropriate getters and setters.
+Include default and parameterized constructor with parameters in the following order,
+public Event(String name, String details, String manager)
+
+ 
+
+Create a class named EventBO with the following member functions
+
+Method	Description
+public void saveToFile(List<Event> eventList)	In this method, save the all event details in event.txt file. Refer the sample output format.
+
+Create a driver class Main with main method, to test the above class.
+Get the event details from user and save in file using saveToFile() method in EventBO.
+
+Input and Output Format
+Refer sample input and output for formatting specifications.  
+All text in bold corresponds to the input and the rest corresponds to output.
+
+ 
+
+Sample input from console:
+Enter number of events
+3
+Enter event details in format(name,details,manager name)
+Bday Party,Mike Hannigon's birthday, Simran
+Wedding Reception,Monica and Chandler Bing's wedding reception, Karan
+Award Show, An award show hosted by xyz company, Joey Tribbiani
+
+ 
+
+Sample output file: (event.txt)
+
+Event details are to be in CSV format.
+
