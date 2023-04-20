@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<!---Fill Code Here-->
+	<body>
+		<button id="click" onclick="prompt('Enter Name')"></button>
+	</body>
+
+</html>
+
