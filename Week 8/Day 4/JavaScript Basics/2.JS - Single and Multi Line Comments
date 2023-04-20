@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script type="text/javascript">
+		
+
+		 	function display() 
+		 	{
+				 //display function
+				document.getElementById("text").innerHTML= "<h3>Welcome!!!</h3>";
+		        
+	
+		 	}
+			 /*
+This script contains
+display function
+*/
+		 </script>
+	</head>
+	<body onload="display()">
+		<center><h1>Single & Multi Line Comments</h3><br>
+		<div id="text"></div>
+		</center>
+	</body>
+</html>
