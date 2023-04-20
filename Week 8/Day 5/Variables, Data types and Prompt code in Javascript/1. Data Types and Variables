@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<!---Fill Code Here-->
+<body>
+
+	<script>
+		var name="Variables and Datatypes"
+		alert("Name : " + name)
+		var boolValue=true
+		alert("Boolean value : " + boolValue)
+		var number=4
+		alert("Number : "+ number)
+		</script>
+</body>
+
+</html>
+
