@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<!-- fill your code here-->
+	<body >
+
+	<script>
+		document.write("Welcome to Scripting World!!")
+	</script>
+	</body>
+</html>
