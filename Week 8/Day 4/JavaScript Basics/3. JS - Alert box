@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+	
+<button type="submit" id="click" onclick= "alert('Welcome To Javascript')">Click me</button>
+
+
+</html>
+
