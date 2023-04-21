@@ -1,0 +1,20 @@
+var fs = require('fs');
+var input = fs.readFileSync('input.txt').toString();
+//fill your code
+
+ function  checkPrime(x) {
+         if(x==1) console.log("Neither Prime nor Composite")
+         else{
+         prime=1;
+         for( i=2;i<=x/2;i++){
+              if(x%i==0) {
+                  prime=0;
+                  console.log("Not Prime")
+                  break
+               }
+          }
+           if(prime) console.log("Prime")
+         }
+   }
+
+   checkPrime(input)
