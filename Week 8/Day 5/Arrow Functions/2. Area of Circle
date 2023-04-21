@@ -1,0 +1,7 @@
+var fs = require('fs');
+var input = fs.readFileSync('input.txt').toString();
+//fill your code
+// console.log(input)
+let area=(r)=> (3.14) * r * r 
+
+console.log(area(input))
