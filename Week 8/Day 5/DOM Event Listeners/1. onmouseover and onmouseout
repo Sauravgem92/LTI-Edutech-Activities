@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <p onmouseover="red()" onmouseout="yellow()" id="p1">HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it. HTML5 is the fifth and current major version of HTML</p>
+   
+    <script>
+      function red(){
+        document.getElementById("p1").style.color="#ff0000"
+      }
+      function yellow(){
+         document.getElementById("p1").style.color="#ffff00"
+      }
+    </script>
+  
+  </body>
+</html>
